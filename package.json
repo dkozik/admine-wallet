@@ -1,0 +1,45 @@
+{
+  "name": "eth-wallet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bitcoin": "^3.0.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "crypto": "^1.0.1",
+    "db-migrate": "^0.10.0",
+    "db-migrate-shared": "^1.1.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "gulp-cli": "^1.4.0",
+    "gulp-pug": "^3.3.0",
+    "hammerjs": "^2.0.8",
+    "mysql": "^2.15.0",
+    "nconf": "^0.9.1",
+    "nodemailer": "^4.4.0",
+    "path": "^0.12.7",
+    "pngjs2": "^2.0.0",
+    "pug": "^2.0.0-rc.4",
+    "secure-conf": "0.0.4",
+    "through2": "^2.0.3",
+    "web3": "^1.0.0-beta.26",
+    "webworker-threads": "^0.7.13",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "db-migrate-mysql": "^1.1.10",
+    "gulp": "^3.9.1"
+  },
+  "description": "admine.io wallet back",
+  "main": "app.js",
+  "keywords": [
+    "admine.io"
+  ],
+  "author": "Denis",
+  "license": "ISC"
+}

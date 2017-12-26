@@ -1,0 +1,9 @@
+block content
+    h2= "Подтверждение email"
+    div
+        - if(success==true) {
+            p Вы успешно подтвердили Ваш email адрес
+            p Ваш логин для входа: #{login}
+        - } else {
+            p Неправильная ссылка
+        - }
